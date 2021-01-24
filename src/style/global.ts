@@ -9,8 +9,14 @@ export default createGlobalStyle`
 }
 
 body{
-  background: #312E38;
+  background: #221A26;
   color: #fff;
   -webkit-font-smooth: antialiased;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+button{
+  cursor: pointer;
 }
 `;
