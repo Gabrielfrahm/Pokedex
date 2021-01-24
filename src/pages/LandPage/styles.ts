@@ -14,7 +14,7 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 60%;
+  max-width: 1000px;
 
   img {
     margin-top: -60px;

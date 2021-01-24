@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import pokebola from '../../assets/94.gif';
 import { Container, BackImg, Content, Button } from './styles';
 
