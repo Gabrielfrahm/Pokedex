@@ -8,6 +8,8 @@ const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={LandPage} />
     <Route path="/dashboard" component={DashBoard} />
+    <Route path="/dashboard/page/:slug" exact component={DashBoard} />
+    <Route path="/page/:slug" exact component={DashBoard} />
   </Switch>
 );
 

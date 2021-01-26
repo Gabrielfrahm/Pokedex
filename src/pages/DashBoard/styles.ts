@@ -3,16 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-`;
-
-export const Content = styled.div`
-  display: flex;
-  justify-content: center;
   align-items: center;
-`;
 
-export const Card = styled.div`
-  display: flex;
-  height: 80px;
-  width: 80px;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  > a img {
+    margin-top: 30px;
+    width: 200px;
+  }
 `;
