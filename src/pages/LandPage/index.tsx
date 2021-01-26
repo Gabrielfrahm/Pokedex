@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import { useHistory } from 'react-router-dom';
 import pokebola from '../../assets/94.gif';
 import { Container, BackImg, Content, Button } from './styles';
