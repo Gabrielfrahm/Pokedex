@@ -1,5 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 import Feed from '../../components/Feed';
 
 import { Container } from './styles';

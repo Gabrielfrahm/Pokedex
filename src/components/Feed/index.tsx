@@ -26,7 +26,6 @@ const Feed: React.FC = () => {
     return slug === undefined || slug === '1' ? undefined : Number(slug) - 1;
   }, [slug]);
 
-  /* Pokemons fetch */
   React.useEffect(() => {
     // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
     const fetchPoke = async () => {
